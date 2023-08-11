@@ -24,8 +24,6 @@ h1{
     text-decoration: underline;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    
-
 }
 
 #select{
@@ -45,6 +43,7 @@ h1{
     justify-content: space-between;
     align-items: center;
 }
+
 #select:hover{
 
     background-color: rgba(255, 255, 255, 0.796);
