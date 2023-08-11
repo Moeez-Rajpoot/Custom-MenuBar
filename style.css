@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.852), rgb(100, 3, 124));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    height: 50vh;
+    width: 60vh;
+}
+
+h1{
+
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+
+}
+
+#select{
+
+    height: 6vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.429);
+    border: 2px solid white;
+    outline: none;
+    width: 90%;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#select:hover{
+
+    background-color: rgba(255, 255, 255, 0.796);
+    color: black;
+}
+
+#select img{
+
+    height: 15px;
+}
+
+ul{
+    background-color: rgba(255, 255, 255, 0.429);
+    width: 90%;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid white;
+}
+
+.hide{
+
+    display: none;
+}
+
+ul li{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px;
+}
+
+ul li:hover{
+
+    background-color: rgba(255, 255, 255, 0.796);
+    color: black;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 1.05em;
+}
+
+li img{
+
+    height: 30px;
+    margin-left: 10px;
+}
