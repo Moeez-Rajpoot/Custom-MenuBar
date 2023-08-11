@@ -49,11 +49,13 @@ h1{
 
     background-color: rgba(255, 255, 255, 0.796);
     color: black;
+    cursor: pointer;
 }
 
 #select img{
 
     height: 15px;
+    transition: transform 0.5s;
 }
 
 ul{
@@ -62,11 +64,17 @@ ul{
     border-radius: 10px;
     outline: none;
     border: 2px solid white;
+    display: none;
 }
 
 .hide{
 
-    display: none;
+    display: block;
+}
+
+.rotate{
+
+    transform: rotate(180deg);
 }
 
 ul li{
@@ -75,6 +83,7 @@ ul li{
     align-items: center;
     gap: 20px;
     padding: 8px;
+    color: white;
 }
 
 ul li:hover{
@@ -84,6 +93,7 @@ ul li:hover{
     border-radius: 10px;
     border: 1px solid white;
     font-size: 1.05em;
+    cursor: pointer;
 }
 
 li img{
