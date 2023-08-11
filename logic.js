@@ -12,11 +12,11 @@ selectbar.addEventListener('click', () => {
 const optionArray = Array.from(option);
 
 optionArray.forEach(item => {
-  item.addEventListener('click', function(event) {
+    item.addEventListener('click', function(event) {
     const clickedSpan = event.currentTarget.querySelector('span');
     selectbartxt.innerText = clickedSpan.textContent;
     optiondiv.classList.toggle('hide');
-  img.classList.toggle('rotate');
+    img.classList.toggle('rotate');
 
   });
 });
